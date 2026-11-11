@@ -34,35 +34,15 @@
     //}
 //})
 
-// const URL="http://localhost:8001/database/3"
-// let options={
-//     "method":"PATCH",
-//     "headers":{
-//         "Content-Type":"application/JSON"
-//     },
-//     "body":JSON.stringify(
-//         {
-//             "name":"Akhila"
-//         }
-//     )
-// }
-// fetch(URL,options)
-// .then((res)=>{
-//     if(res.ok){
-//         console.log(res.status,res.statusText)
-//     }
-// })
-
-
-const URL="http://localhost:8001/database/2"
+const URL="http://localhost:8001/database/3"
 let options={
-    "method":"PUT",
+    "method":"PATCH",
     "headers":{
         "Content-Type":"application/JSON"
     },
     "body":JSON.stringify(
         {
-            "name":"Ruthi"
+            "name":"Akhila"
         }
     )
 }
@@ -72,5 +52,25 @@ fetch(URL,options)
         console.log(res.status,res.statusText)
     }
 })
+
+
+// const URL="http://localhost:8001/database/2"
+// let options={
+//     "method":"PUT",
+//     "headers":{
+//         "Content-Type":"application/JSON"
+//     },
+//     "body":JSON.stringify(
+//         {
+//             "name":"Ruthi"
+//         }
+//     )
+// }
+// fetch(URL,options)
+// .then((res)=>{
+//     if(res.ok){
+//         console.log(res.status,res.statusText)
+//     }
+// })
 
 

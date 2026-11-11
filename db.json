@@ -2,17 +2,19 @@
   "database": [
     {
       "name": "Ruthi",
-      "id": "2"
+      "id": "1"
     },
     {
-      "name": "Akhila",
-      "id": "3"
+        "id": "3",
+        "name": "Akhila",
+        "age":24
+      
     },
     {
       "id": "2",
       "name": "Vardhan",
       "age": 23
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
+
 }
